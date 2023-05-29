@@ -1,7 +1,7 @@
 _/\\_Namaste!  I’m @quotcode aka Shivam Yadav
 
 - 👀 I’m a Software Developer. My skillset lies in Java-SpringBoot-Microservices-Kafka
-- 🌱 I’m currently learning React JS
+- 🌱 I’m currently learning Angular JS and IBM Message Queue
 - 💞️ I’m looking to collaborate on Full-stack Web Development projects
 - 📫 
 <a href="https://www.linkedin.com/in/quotcode/">LinkedIn Account</a>

@@ -1,6 +1,6 @@
 Namaste! I am Shivam Yadav. 
-- 👀 I’m a Software Developer. My skillset lies in Java-SpringBoot-Microservices-Kafka domain
-- 🌱 I’m currently learning Angular JS and IBM Message Queue
+- 👀 I’m a Software Developer. My skillset lies in Java Full Stack Development
+- 🌱 I’m currently learning Angular
 - 💞️ Always up for collaboration on Full-stack Web Development projects
 
 

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shivam Yadav — Senior Java Backend Engineer</title>
-<meta name="description" content="Senior Java backend engineer building scalable microservices and event-driven systems for BFSI and Healthcare.">
+<title>Shivam Yadav — Senior Software Engineer</title>
+<meta name="description" content="Senior Java Software Engineer building scalable microservices and event-driven systems for BFSI and Healthcare.">
 <meta name="theme-color" content="#0b0f14">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 <style>
@@ -14,9 +14,9 @@ html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--tx);font:16px/1.65 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 a{color:var(--ac2);text-decoration:none}a:hover{color:var(--ac)}
 .w{max-width:900px;margin:auto;padding:0 20px}
-nav{position:sticky;top:0;background:#0b0f14ddd;backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:9}
-nav .w{display:flex;justify-content:space-between;align-items:center;height:52px}
-nav b{color:var(--ac)}nav div a{margin-left:18px;color:var(--mut);font-size:14px}
+nav{position:sticky;top:0;background:#0b0f14dd;backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:9}
+nav .w{display:flex;justify-content:space-between;align-items:center;min-height:52px}
+nav b{color:var(--ac);white-space:nowrap}nav div a{margin-left:18px;color:var(--mut);font-size:14px;white-space:nowrap}
 section{padding:52px 0}
 h2{font-size:14px;color:var(--ac);letter-spacing:.15em;text-transform:uppercase;margin-bottom:24px}
 h2:before{content:"~/ "}
@@ -28,10 +28,10 @@ h1 span{color:var(--ac2)}
 .btns{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
 .b{border:1px solid var(--line);padding:9px 16px;border-radius:6px;color:var(--tx);font-size:14px}
 .b:hover{border-color:var(--ac)}.b.p{background:var(--ac);color:#04210f;border-color:var(--ac);font-weight:700}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:40px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:12px;margin-top:40px}
 .stats div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px}
 .stats b{display:block;font-size:24px;color:var(--ac)}.stats span{color:var(--mut);font-size:13px}
-.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px}
 .c{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px}
 .c h3{font-size:14px;color:var(--ac2);margin-bottom:8px}
 .c p{color:var(--mut);font-size:14px}
@@ -47,7 +47,49 @@ h1 span{color:var(--ac2)}
 .job li{color:var(--mut);margin:0 0 6px 18px;font-size:15px}
 .aw{font-size:14px;color:var(--mut)}.aw li{margin:0 0 6px 18px}
 footer{border-top:1px solid var(--line);padding:30px 0;color:var(--mut);font-size:13px;text-align:center}
-@media(max-width:560px){nav div a:nth-child(n+4){display:none}}
+img{max-width:100%}
+a,.b{touch-action:manipulation}
+:focus-visible{outline:2px solid var(--ac);outline-offset:3px}
+@media(max-width:700px){
+	.w{padding-left:18px;padding-right:18px}
+	section{padding:40px 0}
+	.hero{padding:64px 0 38px}
+	.job{padding-left:18px}
+	.job li{font-size:14px}
+	nav .w{flex-wrap:wrap;padding-top:8px;padding-bottom:8px;gap:4px 12px}
+	nav div{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:2px 0}
+	nav div a{margin-left:14px}
+}
+@media(max-width:520px){
+	body{font-size:15px}
+	.w{padding-left:16px;padding-right:16px}
+	nav .w{align-items:flex-start}
+	nav div{width:100%;justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none}
+	nav div::-webkit-scrollbar{display:none}
+	nav div a{margin:0 18px 0 0;padding:5px 0;min-height:36px;display:inline-flex;align-items:center}
+	h1{font-size:clamp(30px,9vw,42px);overflow-wrap:anywhere}
+	.hero{padding-top:48px}
+	.hero p{font-size:14px}
+	.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:28px}
+	.stats div,.c{padding:14px}
+	.stats b{font-size:21px}
+	.stats span{font-size:12px}
+	.btns{gap:8px}
+	.b{padding:9px 12px}
+	.co{align-items:flex-start;gap:9px}
+	.logo{width:36px;height:36px;font-size:18px}
+	.job h3{font-size:14px;overflow-wrap:anywhere}
+	.job em{font-size:12px}
+	.job ul{padding-left:20px}
+	.job li{margin-left:0;font-size:13px}
+	.t{font-size:12px;padding:3px 7px}
+	.aw{padding-left:20px}
+}
+@media(max-width:350px){
+	.stats{grid-template-columns:1fr}
+	.job{padding-left:14px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
@@ -55,8 +97,9 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--mut);font-siz
 
 <header class="w hero">
 <small>$ whoami</small>
-<h1>Namaste 🙏 I'm Shivam<br><span>Senior Java Backend Engineer</span> 🇮🇳</h1>
-<p>I build scalable microservices and event-driven systems for BFSI and Healthcare. Building meaningful software for India first, the world next.</p>
+<h1>Namaste🙏 <br> I'm Shivam<br><span>Senior Software Engineer, </span> 🇮🇳</h1>
+<p>Ship features for enterprise currently. 
+    Working on building an India first product.</p>
 <div class="btns">
 <a class="b p" href="#contact">Get in touch</a>
 <a class="b" href="https://github.com/quotcode">GitHub</a>
@@ -65,18 +108,19 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--mut);font-siz
 <div class="stats">
 <div><b>5+</b><span>years experience</span></div>
 <div><b>2</b><span>domains: BFSI &amp; Healthcare</span></div>
-<div><b>20+</b><span>modules supported</span></div>
-<div><b>90%</b><span>less manual deploy effort</span></div>
+<div><b>10+</b><span>features shipped</span></div>
+<div><b>10+</b><span>folks mentored</span></div>
 </div>
 </header>
 
 <section id="about"><div class="w">
 <h2>about</h2>
-<p style="color:var(--mut)">I'm a Senior Software Engineer at Deloitte with deep experience in Java, Spring Boot, AWS and DevOps. I like turning messy, real-world requirements into reliable systems, keeping production healthy, and modernizing legacy platforms without breaking what works. Based in Mumbai, India.</p>
+<p style="color:var(--mut)">I'm a Senior Software Engineer at Deloitte with deep experience in building solutions with Java ecosystem.
+    I am now in constant pursuit of building meaningful software that makes a difference.</p>
 </div></section>
 
 <section id="work"><div class="w">
-<h2>experience</h2>
+<h2>Career so far</h2>
 <div class="job">
 <div class="co"><div class="logo dl">D<i>.</i></div><div><h3>Senior Software Engineer — Deloitte</h3><em>Jan 2025 – Present · Mumbai</em></div></div>
 <ul>
@@ -111,10 +155,9 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--mut);font-siz
 <section><div class="w">
 <h2>interests &amp; what I like</h2>
 <div class="g">
-<div class="c"><h3>🧠 Exploring</h3><p>System design, AI agents, voice-first experiences, and AI-assisted development with Copilot and Claude.</p></div>
-<div class="c"><h3>🚀 Mission</h3><p>Build with purpose. Solve real problems. Make technology matter, for India first.</p></div>
-<div class="c"><h3>🛠️ I enjoy</h3><p>Debugging gnarly production issues, clean and maintainable code, and mentoring junior engineers.</p></div>
-<div class="c"><h3>📚 Sharing</h3><p>Community learning, like my Git Quick Tour series on GitHub.</p></div>
+<div class="c"><h3>🧠 Exploring</h3><p>Product Development</p></div>
+<div class="c"><h3>🚀 Mission</h3><p>Build for India</p></div>
+<div class="c"><h3>🛠️ I enjoy</h3><p>Solving problems, sharing knowledge, and mentoring junior engineers.</p></div>
 </div>
 </div></section>
 
@@ -136,7 +179,7 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--mut);font-siz
 <section><div class="w">
 <h2>education &amp; certifications</h2>
 <div class="g">
-<div class="c"><h3>B.E. Information Technology</h3><p>Fr. Conceicao Rodrigues College of Engineering, Mumbai · 2017–2021 · CGPA 8.49/10</p></div>
+<div class="c"><h3>B.E. Information Technology</h3><p>Fr. Conceicao Rodrigues College of Engineering, Mumbai · 2017–2021</p></div>
 <div class="c"><h3>Certifications</h3><p>GH-300 GitHub Copilot (GitHub, Jun 2026)<br>Claude Certified Developer – Foundations (Anthropic, Sep 2026)</p></div>
 </div>
 </div></section>
@@ -147,13 +190,13 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--mut);font-siz
 <a href="mailto:yshivam9920@gmail.com">yshivam9920@gmail.com</a> · <a href="https://www.linkedin.com/in/quotcode/">LinkedIn</a> · <a href="https://github.com/quotcode">GitHub</a> · <a href="https://linktr.ee/quotcode">Linktree</a></p></div>
 </div></section>
 
-<section><div class="w">
+<!-- <section><div class="w">
 <h2>recognition</h2>
 <ul class="aw">
 <li>Deloitte High Five / SPOT and Applause Awards</li>
 <li>Oracle "Pat on the Back" for delivery performance</li>
 </ul>
-</div></section>
+</div></section> -->
 
 <footer>© <span id="y"></span> Shivam Yadav · Build with purpose. 🇮🇳</footer>
 <script>

@@ -1,8 +1,18 @@
-Namaste! I am Shivam Yadav. 
-- 👀 I’m a Software Developer. My skillset lies in Java Full Stack Development
-- 🌱 I’m currently learning Angular
-- 💞️ Always up for collaboration on Full-stack Web Development projects
+<h1>Namaste 🙏 I'm Shivam Yadav</h1>
 
+Software Engineer | Backend Development | Building for India 🇮🇳
+
+I build software, solve problems, and explore ideas that make a meaningful difference in people's lives.
+
+Currently focused on Java backend engineering, system design, and AI-powered applications — with a vision to build impactful products for India first, and the world next.
+
+💻 Tech: Java, J2EE, SQL, AWS, Docker
+
+🧠 Exploring: System Design, AI Agents, Voice-first Experiences
+
+🚀 Mission: Building meaningful software that solves real-world problems
+
+Build with purpose. Solve real problems. Make technology matter.
 
 <a href="https://www.linkedin.com/in/quotcode/">LinkedIn</a>
 
